@@ -1,4 +1,4 @@
 .custom-color {
-    background-color: #ad8a52;
+    background-color: var(--dominantColor) !important;
     height: 200px;
 }
