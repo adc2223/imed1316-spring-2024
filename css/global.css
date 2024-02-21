@@ -1,0 +1,18 @@
+/*color*/
+/* 
+60% #ad8a52
+30% #152136
+10% #ffffff
+*/
+
+:root {
+
+    /* var(--dominantColor) !important; */
+    --dominantColor: #ad8a52;
+
+    /* var(--secondaryColor) !important; */
+    --secondaryColor: #152136;
+
+    /* var(--accentColor) !important; */
+    --accentColor: #ffffff;
+}
