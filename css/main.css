@@ -21,3 +21,11 @@ h2 {
     background-color: #ffffff;
 
 }
+
+#top-logo-small {
+
+    font-size: 29 px;
+    font-family: "Roboto", sans-serif;
+    color: var(--dominantColor) !important;
+
+}
