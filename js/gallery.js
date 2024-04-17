@@ -14,7 +14,7 @@ $(document).ready(function () {
         thumbnailHoverEffect2: "imageScaleIn80|imageSepiaOff|labelAppear75",
         thumbnailGutterWidth: 0,
         thumbnailGutterHeight: 0,
-        thumbnailAlignment: "center"
+        thumbnailAlignment: "center",
         thumbnailOpenImage: true
     });
 });
