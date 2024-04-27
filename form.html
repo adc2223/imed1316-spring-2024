@@ -147,64 +147,79 @@
 
                     <!--Email - email field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Email</label>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required />
                     </div>
                     <!--Phone - tel field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Phone</label>
+                        <label for="phone">Phone (optional)</label>
+                        <input type="tel" name="phone" id="phone" />
                     </div>
 
                     <!-- Social Media - url field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Social Media</label>
+                        <label for="url">Social Media</label>
+                        <input type="url" name="url" id="social-media" />
                     </div>
 
                     <!--Start Date - date field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Start Date</label>
+                        <label for="start-date">Start Date</label>
+                        <input type="date" name="startDate" id="start-date" required />
                     </div>
 
                     <!--Tsize - select (dropdown) field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">T-shirt Size</label>
-                    </div>
+                        <label for="t-shirt">T-shirt Size</label>
+                        <select name="tShirt" id="t-shirt" required>
+                            <option value="">SELECT T-SHIRT SIZE</option>
+                            <option value="XXS">XXS</option>
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                            <option value="CUSTOM">CUSTOM</option>
+                        </select>
+                        <input type="text" name="custom" placeholder="Please input a custom size" </div>
 
-                    <!--Tcolor - color field-->
-                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">T-shirt Color</label>
-                    </div>
+                        <!--Tcolor - color field-->
+                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <label for="">T-shirt Color</label>
+                        </div>
 
-                    <!--Background Check - file (upload) field-->
-                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Background Check</label>
-                    </div>
+                        <!--Background Check - file (upload) field-->
+                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <label for="">Background Check</label>
+                        </div>
 
-                    <!--Participating In - radio field-->
-                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Participating In</label>
-                    </div>
+                        <!--Participating In - radio field-->
+                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <label for="">Participating In</label>
+                        </div>
 
-                    <!--Time Of Day - checkbox field-->
-                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Time of Day</label>
-                    </div>
+                        <!--Time Of Day - checkbox field-->
+                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <label for="">Time of Day</label>
+                        </div>
 
-                    <!--Comment - text field-->
-                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Comments</label>
-                    </div>
+                        <!--Comment - text field-->
+                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <label for="">Comments</label>
+                        </div>
 
-                    <!--Terms and Conditions - checkbox (sitch) field-->
-                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Terms and Conditions</label>
-                    </div>
+                        <!--Terms and Conditions - checkbox (sitch) field-->
+                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <label for="">Terms and Conditions</label>
+                        </div>
 
-                    <!--Submit Field-->
-                    <div class="col-12">
-                        <input type="submit" name="submit" value="Volunteer Now" />
-                    </div>
+                        <!--Submit Field-->
+                        <div class="col-12">
+                            <input type="submit" name="submit" value="Volunteer Now" />
+                        </div>
 
-                </div>
+                    </div>
             </form>
 
         </div>
