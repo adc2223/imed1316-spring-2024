@@ -182,44 +182,67 @@
                             <option value="XXL">XXL</option>
                             <option value="CUSTOM">CUSTOM</option>
                         </select>
-                        <input type="text" name="custom" placeholder="Please input a custom size" </div>
-
-                        <!--Tcolor - color field-->
-                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                            <label for="">T-shirt Color</label>
-                        </div>
-
-                        <!--Background Check - file (upload) field-->
-                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                            <label for="">Background Check</label>
-                        </div>
-
-                        <!--Participating In - radio field-->
-                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                            <label for="">Participating In</label>
-                        </div>
-
-                        <!--Time Of Day - checkbox field-->
-                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                            <label for="">Time of Day</label>
-                        </div>
-
-                        <!--Comment - text field-->
-                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                            <label for="">Comments</label>
-                        </div>
-
-                        <!--Terms and Conditions - checkbox (sitch) field-->
-                        <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                            <label for="">Terms and Conditions</label>
-                        </div>
-
-                        <!--Submit Field-->
-                        <div class="col-12">
-                            <input type="submit" name="submit" value="Volunteer Now" />
-                        </div>
-
+                        <input type="text" name="custom" placeholder="Please input a custom size" id="custom" />
                     </div>
+
+                    <!--Tcolor - color field-->
+                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <label for="color">T-shirt Color</label>
+                        <input type="color" id="color" name="color" />
+                    </div>
+
+                    <!--Background Check - file (upload) field-->
+                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <label for="background-check">Background Check</label>
+                        <input type="file" name="file" id="background-check" required />
+                    </div>
+
+                    <!--Participating In - radio field-->
+                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <strong>Participating In</strong><br />
+
+                        <input type="radio" name="participation" id="fashion-show" required value="Fashion Show" />
+                        <label for="donation">Donation</label>
+
+                        <input type="radio" name="participation" id="donation" required value="Donation" />
+                        <label for="donation">Donation</label>
+
+                        <input type="radio" name="participation" id="expectator" required value="Expectator" />
+                        <label for="expectator">Expectator</label>
+                    </div>
+
+                    <!--Time Of Day - checkbox field-->
+                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <strong for="">Time of Day</strong>
+
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-morning" required value="Morning" />
+                        <label for="time-of-day-morning">Morning</label>
+
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" required value="AFternoon" />
+                        <label for="time-of-day-afternoon">Afternoon</label>
+
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-evening" required value="Evening" />
+                        <label for="time-of-day-evening">Evening</label>
+                    </div>
+
+                    <!--Comment - text field-->
+                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <label for="about-you">Tell us about you</label><br />
+                        <textarea name="aboutYou" id="about-you"></textarea>
+                    </div>
+
+                    <!--Terms and Conditions - checkbox (sitch) field-->
+                    <div class="col-12 col-xxs-12 col-xs-12 col-s-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <input type="checkbox" name="terms" id="terms-and-conditions" value="Yes" />
+                        <label for="terms-and-conditions">I accept the Terms and Conditions</label>
+                    </div>
+
+                    <!--Submit Field-->
+                    <div class="col-12">
+                        <input type="submit" name="submit" value="Volunteer Now" />
+                    </div>
+
+                </div>
             </form>
 
         </div>
