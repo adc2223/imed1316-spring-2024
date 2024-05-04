@@ -45,14 +45,14 @@
 }
 
 .first-paragraph-img {
-    width: 100%;
+    position: relative;
     float: left;
     padding-right: 18px;
 }
 
 @media(max-width:900px) {
     .first-paragraph-img {
-        width: 100%;
+        position: relative;
         float: none;
         padding-right: 0px;
     }
